@@ -1,0 +1,24 @@
+:host {
+  text-align: center;
+
+  .searchbar{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .mat-raised-button {
+      height: 36px;
+    }
+  }
+
+  .albums, .artists {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+  }
+
+  .artist {
+    width: 240px;
+  }
+}
